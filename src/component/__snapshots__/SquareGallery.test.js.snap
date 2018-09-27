@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SquareGallery Should renders appropriately 1`] = `
+<div
+  className=""
+>
+  <h4>
+    Square Gallery
+  </h4>
+  <Connect(withRouter(GalleryActions)) />
+  <div
+    className="dropdown-divider space"
+    key="button-bar-top"
+  />
+  <div
+    className="square-preview-item"
+    key="square-preview-0"
+    onClick={[Function]}
+  >
+    <PreviewSquare
+      border={40}
+      color="#9ef094"
+      size={15}
+    />
+    <div
+      className="dropdown-divider space"
+      key="square-preview-space0"
+    />
+  </div>
+  <div
+    className="square-preview-item"
+    key="square-preview-1"
+    onClick={[Function]}
+  >
+    <PreviewSquare
+      border={40}
+      color="#cd8af0"
+      size={10}
+    />
+    <div
+      className="dropdown-divider space"
+      key="square-preview-space1"
+    />
+  </div>
+  <div
+    className="square-preview-item"
+    key="square-preview-2"
+    onClick={[Function]}
+  >
+    <PreviewSquare
+      border={40}
+      color="#f09849"
+      size={5}
+    />
+    <div
+      className="dropdown-divider space"
+      key="square-preview-space2"
+    />
+  </div>
+</div>
+`;

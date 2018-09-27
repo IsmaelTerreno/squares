@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewSquare Should renders appropriately 1`] = `
+<div
+  className="square-preview col-lg-12 col-md-12 col-sm-12 col-12 animated flipInX"
+  style={
+    Object {
+      "backgroundColor": "#d9e3f0",
+      "borderBottomLeftRadius": "40px",
+      "borderBottomRightRadius": "40px",
+      "borderTopLeftRadius": "40px",
+      "borderTopRightRadius": "40px",
+      "height": "8rem",
+    }
+  }
+/>
+`;

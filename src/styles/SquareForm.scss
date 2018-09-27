@@ -1,0 +1,31 @@
+@import "./index.scss";
+
+.color-picker{
+  background: #f9f9f9;
+  padding: 0.8rem;
+}
+
+.color-picker-panel{
+  margin: 0 auto;
+}
+
+.color-picker-button{
+  margin-top: 0.5rem;
+}
+
+h4{
+  margin-bottom: 2rem;
+}
+
+form{
+  margin-bottom: 2rem;
+}
+
+.dropdown-divider.space{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.square-preview-message{
+  height: 3.5rem;
+}

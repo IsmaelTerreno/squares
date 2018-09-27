@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartIntroBlock Should renders appropriately 1`] = `
+<div
+  className="animated bounceIn"
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "marginTop": "8rem",
+        "padding": "0.5rem",
+      }
+    }
+  >
+    <img
+      alt="Square"
+      className="card-img-top"
+      src="app-main-logo.png"
+      style={
+        Object {
+          "margin": "0 auto",
+          "width": "5rem",
+        }
+      }
+    />
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Art with Squares
+      </h5>
+      <p
+        className="card-text"
+      >
+        Create customized stylish squares to have your own gallery and show them to the world.
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <Link
+            className="btn btn-primary animated rubberBand"
+            replace={false}
+            role="button"
+            to="/square"
+          >
+            Start to create
+          </Link>
+        </div>
+        <div
+          className="col"
+        >
+          <Link
+            className="btn btn-primary animated rubberBand"
+            replace={false}
+            role="button"
+            to="/square/gallery"
+          >
+            Gallery
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
