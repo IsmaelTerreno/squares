@@ -1,4 +1,4 @@
-# squares
+# Squares Demo App
 
 Stack used
 
