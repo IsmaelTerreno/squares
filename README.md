@@ -24,3 +24,9 @@ A list of saved Output divs with preserved styling. It should be possible to:
  - Remove Outputs from the list
  - Some animations and sorting/filtering options.
 
+This application can be used mobile for a better user experience.
+
+The Backend API of this application is in the repository:
+[squares-api](https://github.com/IsmaelTerreno/squares-api)
+
+To run this Demo Only clone this repository an the Backend API mentioned above.
