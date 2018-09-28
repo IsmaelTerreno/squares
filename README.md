@@ -9,13 +9,16 @@ The app should consist of 3 parts/sections: Editor, Output, Gallery. Editor shou
 
 
 
-Output: simple rectangular <div>
-Editor: it should have a set of inputs to adjust Output’s:
+**Output** 
+Simple rectangular <div>
+**Editor** 
+It have a set of inputs to adjust Output’s:
 background colour (colour picker)
 size (input which you think is the most suitable here)
 border radius (please use a range picker)
 A save button
-Gallery: a list of saved Output divs with preserved styling. It should be possible to:
+**Gallery** 
+A list of saved Output divs with preserved styling. It should be possible to:
 remove Outputs from the list
 [optional but very welcome] some animations or sorting/filtering options
   
