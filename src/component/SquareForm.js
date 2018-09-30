@@ -86,10 +86,7 @@ class SquareForm extends Component {
         size
       );
       this.props.onSubmit(squareToPersist);
-      const delayedAction = () => {
-        this.setState(defaultState);
-      };
-      setTimeout(() => { delayedAction() }, 1900);
+      this.setState(defaultState);
     };
 
     goBackTo = () => {
