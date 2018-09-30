@@ -1,12 +1,18 @@
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import SquareGallery from '../component/SquareGallery';
-import { edit, findAll } from '../ducks/square/square.action';
+import {
+    edit,
+    FILTER_BY_OPTION_DEFAULT,
+    findAll,
+    FindOptions,
+    ORDER_BY_OPTION_DEFAULT
+} from '../ducks/square/square.action';
 
 const mapDispatchToProps = dispatch => {
   return {
     onLoad: () => {
-      dispatch(findAll(null));
+      dispatch(findAll(new FindOptions(FILTER_BY_OPTION_DEFAULT, ORDER_BY_OPTION_DEFAULT)));
     },
     onClickSquare: (square) => dispatch(edit(square))
   };
