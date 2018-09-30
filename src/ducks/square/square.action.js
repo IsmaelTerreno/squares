@@ -106,7 +106,7 @@ export const findAll = (options) => dispatch => {
   console.log(options);
   dispatch(findAllSquaresRequest());
   const queryOptions = (options) ? `?filterBySize=${options.filterBy.value}&orderBy=${options.orderBy.field}` : '';
-  return fetch(`${backendApi.urlBackend}/api/v1/squares${queryOptions}`,
+  return fetch(`${backendApi.urlBackend}${queryOptions}`,
     {
       method: 'get',
       headers: HeaderSetup
@@ -122,7 +122,7 @@ export const findAll = (options) => dispatch => {
 
 export const save = (square) => dispatch => {
   dispatch(saveSquareRequest());
-  return fetch(`${backendApi.urlBackend}/api/v1/squares`,
+  return fetch(`${backendApi.urlBackend}`,
     {
       method: 'post',
       headers: HeaderSetup,
@@ -148,7 +148,7 @@ export const edit = (square) => dispatch => {
 
 export const deleteSquare = (square) => dispatch => {
   dispatch(deleteSquareRequest());
-  return fetch(`${backendApi.urlBackend}/api/v1/squares/${ square.id }`,
+  return fetch(`${backendApi.urlBackend}/${ square.id }`,
     {
       method: 'delete',
       headers: HeaderSetup
