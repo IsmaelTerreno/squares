@@ -31,7 +31,8 @@ The Backend API of this application is in the repository:
 
 To run this Demo Only clone this repository an the Backend API mentioned above.
 
-There is a Live Demo on a server Heroku here:
 **To see the this demo online take account the first time will take 20 seconds or less because is a free hosting ;).**
+
+There is a Live Demo on a server Heroku here:
 [Squares Demo Live](https://squares-demo.herokuapp.com)
 
